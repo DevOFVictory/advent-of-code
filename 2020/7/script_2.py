@@ -25,7 +25,7 @@ print('')
 print('Starting to bruteforce potential tree... (This can take a while!)')
 for shinyGoldBag in shinyGoldBags:
     for rule in lines:
-        if ' '+shinyGoldBag in rule:
+        if ' ' + shinyGoldBag in rule:
             bag = rule.split(' bags')[0]
             if bag not in shinyGoldBags:
                 shinyGoldBags.append(bag)
@@ -35,6 +35,6 @@ amount = len(shinyGoldBags)
 
 # Printing output
 print('')
-print('====================================================================================')
+print('===========================================')
 print('\033[94m\033[1m[DONE] \033[92mThe amount of bags which can contain a "shiny gold bag" is:\033[4m',amount,'\033[0m')
-print('====================================================================================')
+print('===========================================')
