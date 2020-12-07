@@ -1,5 +1,5 @@
 # Name: Adventskalender-6
-# Description: Caluculates the highest seat id
+# Description: Caluculates the sum of equal answers in travel forms for each group
 # Author: DevOFVictory
 # Date: 2020/12/07
 
