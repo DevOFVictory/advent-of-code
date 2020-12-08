@@ -3,7 +3,6 @@
 # Author: DevOFVictory
 # Date: 2020/12/07
 
-
 # Reading inputs
 print('Reading inputs...')
 file = open('input.txt')
