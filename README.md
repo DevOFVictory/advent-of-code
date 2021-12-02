@@ -2,7 +2,7 @@
 
 My solutions for [AdventOfCode](https://adventofcode.com)
 
-Here I am going to upload all of my own adventofcode.com codes in python
+Here I am going to upload all of my own adventofcode.com codes in python.
 
 ## Progress
 
