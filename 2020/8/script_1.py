@@ -28,3 +28,5 @@ with open('input.txt') as f:
         else:
             position += 1
     print(accumulator)
+
+#
