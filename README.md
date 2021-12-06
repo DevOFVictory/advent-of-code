@@ -1,3 +1,5 @@
+![Banner](./banner.png)
+
 # AdventOfCode Solutions
 
 My solutions for [AdventOfCode](https://adventofcode.com)
