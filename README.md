@@ -1,7 +1,4 @@
-
-<div align="center">
-  <img src="banner.jpg" alt="banner" width="500"/>
-</div>
+![Banner](./banner.png)
 
 # AdventOfCode Solutions
 
