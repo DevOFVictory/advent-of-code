@@ -1,4 +1,4 @@
-![Banner](./gradiantbanner.png)
+![Banner](./banner.png)
 
 # AdventOfCode Solutions
 
