@@ -1,3 +1,8 @@
+
+<div align="center">
+  <img src="banner.jpg" alt="banner" width="500"/>
+</div>
+
 # AdventOfCode Solutions
 
 My solutions for [AdventOfCode](https://adventofcode.com)
