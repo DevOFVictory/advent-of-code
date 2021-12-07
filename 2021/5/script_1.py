@@ -1,3 +1,5 @@
+from collections import Counter
+
 
 def get_coords_between(xStart, yStart, xEnd, yEnd):
     points = []
@@ -29,12 +31,8 @@ with open('input.txt') as f:
         for coord in get_coords_between(xStart, yStart, xEnd, yEnd):
             coords.append(coord)
 
-    MyList = ["a", "b", "a", "c", "c", "a", "c"]
-
-    dict_of_counts = {item: coords.count(item) for item in coords}
+    dict_of_counts = dict(Counter(coords))
 
     filtered = dict((k, v) for k, v in dict_of_counts.items() if v >= 2)
 
     print(len(filtered))
-
-    # TODO: Optimize Runtime
