@@ -10,4 +10,6 @@ with open('input.txt') as f:
             if len(activated_secment) in [2, 4, 3, 7]:
                 sum += 1
 
+    #
     print(sum)
+    #
