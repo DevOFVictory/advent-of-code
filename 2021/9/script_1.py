@@ -1,45 +1,24 @@
-with open('input.txt') as f:
+with open('input.txt', 'r') as f:
     lines = f.read().splitlines()
 
-    sum = 0
-    for y in range(len(lines)):
-        for x in range(len(lines[y])):
+height_map = {}
+for y, row in enumerate(lines):
+    for x, height in enumerate(row):
+        height_map[(x, y)] = int(height)
 
-            center = int(lines[y][x])
-            top, bottom, left, right = None, None, None, None
+low_points = []
+sum = 0
+for coords, height in height_map.items():
+    x, y = coords
+    neighbours = ((x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1))
+    lowest = True
+    for neighbour in neighbours:
+        if height_map.get(neighbour, 10) <= height:
+            lowest = False
+            break
 
-            surroundings = []
-            try:
-                top = int(lines[y-1][x])
-                surroundings.append(top)
-            except:
-                pass
+    if lowest:
+        low_points.append(coords)
+        sum += height + 1
 
-            try:
-                bottom = int(lines[y+1][x])
-                surroundings.append(bottom)
-            except:
-                pass
-
-            try:
-                right = int(lines[y][x+1])
-                surroundings.append(right)
-            except:
-                pass
-
-            try:
-                left = int(lines[y][x-1])
-                surroundings.append(left)
-            except:
-                pass
-
-            is_low = True
-
-            for i in surroundings:
-                if i <= center:
-                    is_low = False
-                    break
-            if is_low:
-                sum += center + 1
-
-    print(sum)
+print(sum)
