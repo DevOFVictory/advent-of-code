@@ -6,6 +6,9 @@ My solutions for [AdventOfCode](https://adventofcode.com)
 
 Here I am going to upload all of my own adventofcode.com codes in python.
 
+### What's Advent Of Code? (AoC)
+💡 Advent of Code is an annual event hosted by Eric Wastl. It is an Advent calendar in which you become a programming task every day from 1 to 25 December, which gets a little harder every day. All tasks can be solved with any programming language, each user receives its own input. More information at https://adventofcode.com/2021/about
+
 ## Progress
 
 ### 2021
@@ -20,7 +23,7 @@ Here I am going to upload all of my own adventofcode.com codes in python.
 |     6      |  ⭐⭐  |     19      |         |
 |     7      |  ⭐⭐  |     20      |         |
 |     8      |  ⭐⭐  |     21      |         |
-|     9      |  ⭐⠀⠀  |     22      |         |
+|     9      |  ⭐⭐  |     22      |         |
 |     10     |         |     23      |         |
 |     11     |         |     24      |         |
 |     12     |         |     25      |         |
