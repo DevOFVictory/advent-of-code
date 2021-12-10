@@ -20,7 +20,7 @@ Here I am going to upload all of my own adventofcode.com codes in python.
 |     6      |  ⭐⭐  |     19      |         |
 |     7      |  ⭐⭐  |     20      |         |
 |     8      |  ⭐⭐  |     21      |         |
-|     9      |         |     22      |         |
+|     9      |  ⭐⠀⠀  |     22      |         |
 |     10     |         |     23      |         |
 |     11     |         |     24      |         |
 |     12     |         |     25      |         |
