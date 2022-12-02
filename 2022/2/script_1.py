@@ -18,4 +18,4 @@ with open('input.txt') as f:
     print(s)
 
     ### One Liner
-    print(sum((lambda x:int(0.5*(x[0]-x[1])**3-1.5*(x[0]-x[1])+1)*3+x[1]+1)(['ABCXYZ'.index(l[i])%3 for i in [0,2]])for l in lines))
+    print(sum((lambda a,b:int(0.5*(a-b)**3-1.5*(a-b)+1)*3+b+1)(*['ABCXYZ'.index(l[i])%3 for i in [0,2]])for l in lines))
