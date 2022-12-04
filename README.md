@@ -18,7 +18,7 @@ Here I am going to upload all of my own adventofcode.com codes in python.
 |     1      |  ⭐⭐  |     14      |         |
 |     2      |  ⭐⭐  |     15      |         |
 |     3      |  ⭐⭐  |     16      |         |
-|     4      |         |     17      |         |
+|     4      |  ⭐⠀⠀  |     17      |         |
 |     5      |         |     18      |         |
 |     6      |         |     19      |         |
 |     7      |         |     20      |         |
