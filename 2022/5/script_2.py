@@ -15,9 +15,13 @@ with open('input.txt') as f:
         orign = int(instruction.split()[3]) - 1
         target = int(instruction.split()[5]) - 1
 
+
+        moving_boxes = []
         for _ in range(amount):
             box = stacks[orign][-1]
+            moving_boxes.append(box)
             stacks[orign] = stacks[orign][:-1]
-            stacks[target].append(box)
+
+        stacks[target] += moving_boxes[::-1]
 
     print(''.join([stack[-1] for stack in stacks]))
