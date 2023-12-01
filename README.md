@@ -14,7 +14,7 @@ Here I am going to upload all of my own adventofcode.com codes in python.
 
 | Day (1-13) | Finished | Day (14-25) | Finished |
 | :--------: | :-------: | :---------: | :------: |
-|     1      |  ⭐⠀⠀  |     14      |         |
+|     1      |  ⭐⭐  |     14      |         |
 |     2      |         |     15      |         |
 |     3      |         |     16      |         |
 |     4      |         |     17      |         |
